@@ -1,8 +1,19 @@
 {
 	"name": "translateyy",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A translate package that combines multiple API's and packages.",
-	"main": "dist/main.js",
+	"main": "./dist/main.cjs",
+	"module": "./dist/main.mjs",
+	"exports": {
+		"require": {
+			"types": "./dist/main.d.cts",
+			"default": "./dist/main.cjs"
+		},
+		"import": {
+			"types": "./dist/main.d.mts",
+			"default": "./dist/main.mjs"
+		}
+	},
 	"scripts": {
 		"build": "tsc && npx prettier --write .",
 		"dev": "pkgroll --watch --tsconfig=tsconfig.json --clean-dist"
