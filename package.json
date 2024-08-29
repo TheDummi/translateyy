@@ -1,5 +1,5 @@
 {
-	"name": "libre-translate",
+	"name": "translateyy",
 	"version": "1.0.0",
 	"description": "A translate package that combines multiple API's and packages.",
 	"main": "dist/main.js",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/TheDummi/combinedTranslate.git"
+		"url": "git+https://github.com/TheDummi/translateyy.git"
 	},
 	"keywords": [
 		"translate",
@@ -19,9 +19,9 @@
 	"type": "module",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/TheDummi/combinedTranslate/issues"
+		"url": "https://github.com/TheDummi/translateyy/issues"
 	},
-	"homepage": "https://github.com/TheDummi/combinedTranslate#readme",
+	"homepage": "https://github.com/TheDummi/translateyy#readme",
 	"dependencies": {},
 	"devDependencies": {
 		"prettier": "^2.8.8",
